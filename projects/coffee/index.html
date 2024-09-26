@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="container-fluid border">
+      <div class="header d-md-none">
+        <div class="container-fluid ">
+          <div class="row bg-black ">
+            <div class="col-12 p-3">
+                <img src="images\logo.png" alt="" width="200px">
+            </div>
+            <div class="col-3">
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="trues">
+                  <img src="images/en-gb_11zon.png"  alt="">
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Arbic</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 $
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-user"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 p-4 rounded-pill">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">                 
+                  <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon border-0"></span>
+                    <a class="navbar-brand" href="#">MENU</a>
+                  </button>
+                  <a class="navbar-brand" href="#"><i class="fas fa-search"></i></a>
+                  <a class="navbar-brand" href="#"><i class="fas fa-shopping-bag"></i></a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div><!--end of header-->
+      <div class="headerlg text-black position-absolute d-none d-md-block">
+        <div class="container">
+          <div class="row position-relative p-5">
+            <div class="col-2 text-center">
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="trues">
+                  <img src="images/en-gb_11zon.png" alt="">
+                  Language
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Arbic</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-1 text-center">
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 $ Currency
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-5 p-3 text-center" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+              <img src="images/logo_11zon (1).png" alt="" width="300px">
+          </div>
+            <div class="col-4 text-center">
+              <div class="dropdown">
+                <button class="btn text-white dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-user"></i>My Account
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 p-4 rounded-pill">
+              <nav class="navbar  navbar-expand-lg bg-body-tertiary">
+                <div class="container p-2">                           
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Iced Coffee</a>
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Cafe Mocha</a>
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Cappuccion</a>
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Cinnamon Dolche</a> 
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Blog</a> 
+                  <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon border-0"></span>
+                    <a class="navbar-brand" href="#">MENU</a>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">      
+                      <li class="nav-item">
+                        <a class="navbar-brand" href="#"><i class="fas fa-search"></i></a>
+                        <a class="navbar-brand" href="#"><i class="fas fa-shopping-bag"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div><!--end of headerlg-->
+      <div class="herosection ">
+        <div class="container-fluid p-0">
+          <div class="row">
+            <div class="col-12">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/main-banner-2-1903x774_11zon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/main-banner-1-1903x774_11zon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/main-banner-3-1903x774_11zon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--end of hero section-->
+      <div class="coffeeshop">
+        <div class="container">
+          <div class="row p-3">
+            <div class="col-12 text-center">
+              <h3 class="p-4">Welcome To Coffee Shop</h3>
+              <p class="text-center p-3 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form injected humour, or  rans as necessary, making this the first true generator on the Internet.  It uses a dictionary of over200 LaThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+            </div>
+            <div class="img col-12 col-md-4 p-3 "data-aos="fade-up"
+            data-aos-duration="3000">
+              <h3>organic coffee</h3>
+              <p class="text-denger">view more</p>
+            </div>
+            <div class="imag col-12 col-md-4 p-3" data-aos="fade-up"
+            data-aos-duration="3000">
+              <h3>espresso bit</h3>
+              <span>view more</span>
+            </div>
+            <div class="image col-12 col-md-4 p-3" data-aos="fade-up"
+            data-aos-duration="3000">
+              <h3>freshly roast</h3>
+              <span>view more</span>
+            </div>
+          </div>
+        </div>
+      </div><!--end of coffeeshop-->
+      <div class="featuredproducts">
+        <div class="container">
+          <div class="row p-3">
+            <div class="col-12 col-md-6 p-2">
+              <h2>Featured Products</h2>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="row p-3 ">
+                <div class="col-11 rounded-pill col-md-3 bg-secondary m-2">
+                  <button type="button" class="btn ">Base class</button>
+                </div>
+                <div class="col-11 col-md-3  rounded-pill bg-secondary m-2">
+                  <button type="button" class="btn">Base class</button>
+                </div>
+                <div class="col-11 col-md-3 rounded-pill bg-secondary m-2">
+                  <button type="button" class="btn">Base class</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--end of prduct-->
+      <div class="product">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12 col-md-3" data-aos="flip-left"  data-aos-duration="1500">
+              <div class="card border-0" >
+                <img src="images/13-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <p>Voluptates Repudiandae</p>
+                 <h2>$140.00</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-3" data-aos="flip-right" data-aos-duration="1500">
+              <div class="card border-0" >
+                <img src="images/15-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                 <p>Accusantium Doloremque</p>
+                 <h2>$99.20 <del>$104.00</del></h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-3" data-aos="flip-left"  data-aos-duration="1500">
+              <div class="card border-0" >
+                <img src="images/10-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Neque Porro Quisquam</p>
+                  <h2>$115.00 <del>$118.00</del></h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-3" data-aos="flip-right" data-aos-duration="1500">
+              <div class="card border-0" >
+                <img src="images/09-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Aliquam Quaerat</p>
+                  <h2>$108.80</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-3" data-aos="flip-left"  data-aos-duration="1500">
+              <div class="card border-0">
+                <img src="images/14-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Consectetur Hampden</p>
+                  <h2>$110.00 <del>$119.60</del></h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-3" data-aos="flip-right" data-aos-duration="1500">
+              <div class="card border-0" >
+                <img src="images/12-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Necessitatibus</p>
+                  <h2>$119.60</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-3" data-aos="flip-left"  data-aos-duration="1500">
+              <div class="card border-0" >
+                <img src="images/11-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Nostrud Exercitation</p>
+                  <h2>$78.80 <del>$83.60</del></h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12  col-md-3" data-aos="flip-right" data-aos-duration="1500">
+              <div class="card border-0" >
+                <img src="images/13-275x275_11zon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p>Praesentium Voluptatum</p>
+                  <h2>$128.00</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-center p-5">
+              <button type="button" class="btn bg-opacity-50 bg-success">VIEW MORE PRODUCT</button>
+            </div>
+          </div>
+        </div>
+      </div><!--end of product-->
+        <div id="manager">
+          <div class="container-fluid">
+            <div class="row text-center p-5">
+              <div class="col-12 p-5 text-white" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+               <img class="rounded-circle" src="images/user1_11zon.jpg" alt="">
+               <h4>your support can bring back smiles</h4>
+               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <br> rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.
+                </p>
+                <h4>Miranda Jhonson (Manager,USA)</h4>
+              </div>
+            </div>
+          </div>
+        </div><!--end of manager-->
+        <div class="blog">
+          <div class="container">
+            <div class="row p-3">
+              <div class="col-12 text-center p-3">
+                 <h2>From The Blog</h2>
+              </div>
+              <div class="col-12 col-md-4 p-3" data-aos="flip-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <img src="images/blog-7-874x590_11zon.jpg" alt="" width="100%">
+                <h5 class="p-1">Necessitatibus Saepe Eveniet</h5>
+                <p class="p-1">The standard Lorem Ipsum passage, used since the 1500s"Lorem ipsum dolor sit amet, co... 
+                    Read More</p>
+              </div>
+              <div class="col-12 col-md-4 p-3" data-aos="flip-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <img src="images/blog-5-874x590_11zon.jpg" alt="" width="100%">
+                <h5 class="p-1">Quis Autem Reprehender Pariatur</h5>
+                <p class="p-1">1914 transiation by H. Rockham "but i must explain to you how all this mistaken idea a.. read more</p>
+              </div>
+              <div class="col-12 col-md-4 p-3" data-aos="flip-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <img src="images/blog-4-874x590_11zon.jpg" alt="" width="100%">
+                <h5 class="p-1">Voluptatem Accusantium Doloremque</h5>
+                <p class="p-1">if you are going to use a passage of Lorem ipsum, you need to be sure there isn't any..read more</p>
+              </div>
+            </div>
+          </div>
+        </div><!--end of blog-->
+        <div class="logo">
+          <div class="container">
+            <div class="row p-3">
+              <div class="col-12 col-md-3">
+                <img src="C:\Users\pushk\OneDrive\Desktop\cod\UIUX.CLASS\bootstrap\coffee\images\1-200x70.png" alt="" width="100%">
+              </div>
+              <div class="col-12 col-md-3">
+                <img src="C:\Users\pushk\OneDrive\Desktop\cod\UIUX.CLASS\bootstrap\coffee\images\2-200x70.png" alt="" width="100%">
+              </div>
+              <div class="col-12 col-md-3">
+                <img src="C:\Users\pushk\OneDrive\Desktop\cod\UIUX.CLASS\bootstrap\coffee\images\3-200x70.png" alt="" width="100%">
+              </div>
+              <div class="col-12 col-md-3">
+                <img src="C:\Users\pushk\OneDrive\Desktop\cod\UIUX.CLASS\bootstrap\coffee\images\4-200x70.png" alt="" width="100%">
+              </div>
+            </div>
+          </div>
+        </div><!--end of logo-->
+        <div class="footer">
+          <div class="container">
+            <div class="row text-white">
+              <div class="col-12 col-md-6 p-5">
+                <h3><i class="fal fa-mail-bulk"></i>JOIN THE COMMUNITY TO BE UPDATED FIRSTLY?</h3>
+              </div>
+              <div class="col-12 col-md-6 p-5 ">
+                <form action="">
+                  <input class="p-2 rounded-pill" type="text" placeholder="Enter your email address">
+                  <input class="p-2 rounded-pill" type="text " placeholder="subscribe">
+                </form>
+              </div>
+              <hr>
+              <div class="col-12 col-md-3">
+                <ul>
+                  <li><h5 class="text-warning">INFORMATION</h5></li>
+                  <li>About Our Store</li>
+                  <li>Delivery Information</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms & Conditions</li>
+                  <li>Site Map</li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3">
+                <ul>
+                  <li><h5 class="text-warning">EXTRAS</h5></li>
+                  <li>Brands</li>
+                  <li>Gift Certificates</li>
+                  <li>Affiliate</li>
+                  <li>Specials</li>
+                  <li>Contact Us</li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3">
+                <ul>
+                  <li><h5 class="text-warning">MY ACCOUNT</h5></li>
+                  <li>My Account</li>
+                  <li>Order History</li>
+                  <li>Wish List</li>
+                  <li>Newsletter</li>
+                  <li>Returns</li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3">
+                <ul>
+                  <li><h5 class="text-warning">CONTACT</h5></li>
+                  <li>Online Coffee Shop - Demo Store <br>
+                    United States</li>
+                  <li>sales@yourcompany.com</li>
+                  <li>+91 000-000-0000</li>                
+                </ul>
+              </div>
+              <div class="col-12 text-center p-3">
+                <i class="fab fa-facebook"></i>
+                <i class="fab ms-2 fa-twitter"></i>
+                <i class="fab ms-2 fa-youtube"></i>
+                <i class="fab ms-2 fa-google-plus-g"></i>
+                <i class="fab ms-2 fa-instagram"></i>
+              </div>
+              <hr>
+              <div class="col-12 text-center">
+                <p>POWERED BY OPENCART COLD COFFEE SHOP © 2023</p>
+              </div>
+              <div class="col-12 text-center p-5 ">
+                <img src="images/visa_11zon.png" alt="">
+                <img src="images/paypal_11zon.png" alt="">
+                <img src="images/discover_11zon.png" alt="">
+                <img src="images/american_express_11zon.png" alt="">
+                <img src="images/google_wallet_11zon.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section><!--end of container-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  </body>
+</html>

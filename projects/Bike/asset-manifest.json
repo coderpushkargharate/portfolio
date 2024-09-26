@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/PushkarG/projects/Bike/static/css/main.cf922f63.css",
+    "main.js": "/PushkarG/projects/Bike/static/js/main.67064f91.js",
+    "static/media/our_4_11zon.jpg": "/PushkarG/projects/Bike/static/media/our_4_11zon.95498793991b1c962cd3.jpg",
+    "static/media/2_11zon.jpg": "/PushkarG/projects/Bike/static/media/2_11zon.eec601ec69c7fac43385.jpg",
+    "static/media/3_11zon.jpg": "/PushkarG/projects/Bike/static/media/3_11zon.628944b310fe4578135e.jpg",
+    "static/media/7_11zon.jpg": "/PushkarG/projects/Bike/static/media/7_11zon.a3fa7687894a02323c65.jpg",
+    "static/media/6_11zon.jpg": "/PushkarG/projects/Bike/static/media/6_11zon.1bfa112b754e11cf6c60.jpg",
+    "static/media/gallry_7_11zon.jpg": "/PushkarG/projects/Bike/static/media/gallry_7_11zon.a408845a3d5c7049137c.jpg",
+    "static/media/4_11zon.jpg": "/PushkarG/projects/Bike/static/media/4_11zon.5671584e431c045d460b.jpg",
+    "static/media/2(1)_11zon.jpg": "/PushkarG/projects/Bike/static/media/2(1)_11zon.5dd7de4befa6819d1427.jpg",
+    "static/media/5_11zon.jpg": "/PushkarG/projects/Bike/static/media/5_11zon.f480db3be1e7f81dcdf7.jpg",
+    "static/media/3(1)_11zon.jpg": "/PushkarG/projects/Bike/static/media/3(1)_11zon.aa9b533dec4bef237024.jpg",
+    "static/media/1_11zon.jpg": "/PushkarG/projects/Bike/static/media/1_11zon.0bb5a3794bdb74cfc460.jpg",
+    "static/media/gallry_1_11zon.jpg": "/PushkarG/projects/Bike/static/media/gallry_1_11zon.1e95f1c187103b584068.jpg",
+    "static/media/1(1)_11zon.jpg": "/PushkarG/projects/Bike/static/media/1(1)_11zon.27f95f38f403090f295d.jpg",
+    "static/media/gallry_6_11zon.jpg": "/PushkarG/projects/Bike/static/media/gallry_6_11zon.8b4b59cc1c937154bbc7.jpg",
+    "static/media/our_4(1)_11zon.jpg": "/PushkarG/projects/Bike/static/media/our_4(1)_11zon.16def05c4345ee2fe0bc.jpg",
+    "static/media/our_1(1)_11zon.jpg": "/PushkarG/projects/Bike/static/media/our_1(1)_11zon.c90d2f43d4c766aa2fff.jpg",
+    "static/media/gallry_2_11zon.jpg": "/PushkarG/projects/Bike/static/media/gallry_2_11zon.235e457bd1cb6e40950b.jpg",
+    "static/media/our_2(1)_11zon.jpg": "/PushkarG/projects/Bike/static/media/our_2(1)_11zon.6806909076c5fa750a90.jpg",
+    "static/media/gallry_4_11zon.jpg": "/PushkarG/projects/Bike/static/media/gallry_4_11zon.f323298d79483ec4f47d.jpg",
+    "static/media/gallry_5_11zon.jpg": "/PushkarG/projects/Bike/static/media/gallry_5_11zon.bd6e2654a4a8c53bfcfd.jpg",
+    "static/media/gallry_9_11zon.jpg": "/PushkarG/projects/Bike/static/media/gallry_9_11zon.b44248d1885b2816d403.jpg",
+    "index.html": "/PushkarG/projects/Bike/index.html",
+    "main.cf922f63.css.map": "/PushkarG/projects/Bike/static/css/main.cf922f63.css.map",
+    "main.67064f91.js.map": "/PushkarG/projects/Bike/static/js/main.67064f91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf922f63.css",
+    "static/js/main.67064f91.js"
+  ]
+}

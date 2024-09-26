@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.header ul li{
+     font-size: 18px;
+     font-weight: 700;
+}
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../image/pexels-photo-1954524_11zon.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.hero h1{
+    /* font-size: 50px; */
+    font-weight: 700;
+}
+.aboutus h2{
+    font-weight: 700;
+}
+.aboutus p{
+    color: rgba(10, 10, 10, 0.613);
+    font-weight: 500;
+}
+.classes h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.gettranningtoday{
+    background: url(../image/pexels-photo-1229356_11zon.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+.img1{
+    background-image: url(../image/pexels-photo-1756959_11zon.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+.img2{
+    background-image: url(../image/pexels-photo-2247179_11zon.jpeg);
+    background-position: center;
+    background-size: cover;  
+    height: 70vh;
+}
+.imgf{
+    background-image: url(../image/pexels-photo-1229356_11zon.webp);
+ 
+    background-size: cover;
+    background-position: center;
+}
+.buttonbg{
+    background: linear-gradient(to right, red,orange);
+}
+.trainers{
+    background-color: #F5F5F5;
+}
+.img4{
+    height: 75%;
+}
+.gettranningtoday h2{
+    font-weight: 700;
+}
+.gettranningtoday p{
+    font-weight: 500;
+}
+.plans h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.plans h3{
+       background: linear-gradient(to right, red,orange);
+}
+.plans .s1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 94, 0);
+}
+.register{
+    background-color: #F5F4F4;
+}
+.register h2{
+    font-weight: 700;
+}
+.register p{
+    font-weight: 500;
+}
+.register input{
+    height: 35px;
+    width: 250px;
+}
+.blog .bs{
+    color: rgb(255, 115, 0);
+}
+.member h6{
+    color: rgb(255, 106, 0);
+}
+.member h2{
+    font-weight: 700;
+}
+.footer .fs{
+    color: rgb(255, 98, 0);
+}
+.navbar li :hover{
+    border-bottom: 1px solid red;
+}
+.navbar button :hover{
+    color: black;
+}

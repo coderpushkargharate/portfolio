@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: linear-gradient(rgba(224, 216, 216, 0.637),rgba(228, 221, 221, 0.694)),url(../images/img_4_11zon.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.navbar-brand{
+    font-size: 35px;
+    color: white;
+}
+.header .carousel-item h2{
+    font-size: 50px;
+}
+.header .carousel-item p{
+    font-size: 30px;
+    
+}
+.header li{
+    font-size: 20px;
+}
+ .bgcolor{
+    background-color: orange;
+}
+.textcolor{
+    color: orange;
+}
+/* .savings img{
+    width: 100px;
+} */
+.imground{
+    width: 50px;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+.hero{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.437),rgba(0, 0, 0, 0.408)), url(../images/pexels-photo-461060_11zon.webp);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+} 
+.review{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/pexels-photo-461060_11zon.webp);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.hero h3{
+    font-weight: 700;
+   
+}
+.btnc{
+    background-color: burlywood;
+}
+.hero hr{
+    color: burlywood;
+    width: 50%;
+    margin: auto;   
+}
+.colr{
+    color: burlywood ;
+}
+.serveyou h2{
+    font-weight: 700;
+}
+ .p1{
+    color: rgba(6, 6, 6, 0.397);
+}
+.madeinlife h2{
+    font-weight: 700;
+    font-size: 38px;
+}
+.hero .p1{
+   font-size: 25px;
+   color: white;
+}

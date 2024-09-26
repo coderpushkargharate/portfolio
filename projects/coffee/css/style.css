@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+   #manager{
+    background: url(../images/pexels-chevanon-photography-302899_11zon.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+   }
+   .footer{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/main-banner-2-1903x774_11zon.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+   }
+   .headerlg{
+    z-index: 1;
+    margin-left:100px;
+   }
+   .headerlg .navbar{
+    border-radius: 10px;
+   }
+   .coffeeshop .img{
+    background-image: url(../images/cms-banner-1_11zon.jpg);
+    background-repeat: no-repeat;
+   }
+   .coffeeshop .imag{
+    background-image: url(../images/cms-banner-2_11zon.jpg);
+    background-repeat: no-repeat;
+   }
+   .coffeeshop .image{
+    background-image: url(../images/cms-banner-3_11zon.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+   }
+   .coffeeshop h3{
+    margin-top: 35px;
+   }
+   .footer ul li{
+    list-style-type: none;
+   }

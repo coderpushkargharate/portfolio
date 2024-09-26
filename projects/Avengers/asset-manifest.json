@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/PushkarG/projects/Avengers/static/css/main.2ef22d9f.css",
+    "main.js": "/PushkarG/projects/Avengers/static/js/main.840a9c7b.js",
+    "static/media/wp4279420-avengers-endgame-4k-wallpapers.jpg": "/PushkarG/projects/Avengers/static/media/wp4279420-avengers-endgame-4k-wallpapers.12ca44b88a5d2bde1a8e.jpg",
+    "static/media/desktop-wallpaper-avengers-logo-u-gg-marvel-ultra-removebg-preview.png": "/PushkarG/projects/Avengers/static/media/desktop-wallpaper-avengers-logo-u-gg-marvel-ultra-removebg-preview.18749cd5762b5bb7bfe8.png",
+    "static/media/OtN5UYA.jpg": "/PushkarG/projects/Avengers/static/media/OtN5UYA.b2fec0cad8be715ad642.jpg",
+    "index.html": "/PushkarG/projects/Avengers/index.html",
+    "main.2ef22d9f.css.map": "/PushkarG/projects/Avengers/static/css/main.2ef22d9f.css.map",
+    "main.840a9c7b.js.map": "/PushkarG/projects/Avengers/static/js/main.840a9c7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ef22d9f.css",
+    "static/js/main.840a9c7b.js"
+  ]
+}
